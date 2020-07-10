@@ -9,7 +9,7 @@ public class Schinken extends GerichtIngredientDecorator {
     }
 
     public String getDescription() {
-        return gericht.getDescription() + ", Schinken";
+        return gericht.getDescription() + ", with Schinken";
     }
 
     public double cost() {

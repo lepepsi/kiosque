@@ -1,15 +1,15 @@
 package com.kiosque.olezoa;
 
-public class Sardine extends GerichtIngredientDecorator {
+public class Bohne extends GerichtIngredientDecorator {
 
     Gericht gericht;
 
-    public Sardine(Gericht gericht) {
+    public Bohne(Gericht gericht) {
         this.gericht = gericht;
     }
 
     public String getDescription() {
-        return gericht.getDescription() + ", with Sardine";
+        return gericht.getDescription() + ", with Bohne";
     }
 
     public double cost() {

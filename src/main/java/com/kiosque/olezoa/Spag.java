@@ -1,15 +1,15 @@
 package com.kiosque.olezoa;
 
-public class Wurst extends GerichtIngredientDecorator {
+public class Spag extends  GerichtIngredientDecorator{
 
     Gericht gericht;
 
-    public Wurst(Gericht gericht) {
+    public Spag(Gericht gericht) {
         this.gericht = gericht;
     }
 
     public String getDescription() {
-        return gericht.getDescription() + ", with Wurst";
+        return gericht.getDescription() + ", with Spag";
     }
 
     public double cost() {
