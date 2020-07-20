@@ -23,12 +23,23 @@ public class OlezoaApplication {
 
 		Omelette omelette = new Omelette();
 
+		GerichtIngredientfactory gerichtIngredientfactory1 = new GerichtIngredientfactory();
+
+		Mayonnaise mayonnaise1 = gerichtIngredientfactory1.createMayonnaise(omelette);
+
+		Sardine sardine1 = gerichtIngredientfactory1.createSardine(mayonnaise1);
+
+		gerichtIngredientfactory1.createSchinken();
+
+		gerichtIngredientfactory1.createWurst();
+
+
 
 
 
 		gerichtIngredientfactory.createMayonnaise();
 
-		System.out.println(gerichtIngredientfactory.createMayonnaise(avokadopuree1).cost());
+		System.out.println(sardine1.getDescription());
 	}
 
 

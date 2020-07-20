@@ -8,17 +8,12 @@ public class Avokadopuree extends Gericht {
         this.gerichtIngredientfactory = gerichtIngredientfactory;
     }
 
-    public String description(){
-       // description = "Avokado Puree";
-        return description + "Avokado Puree" ;
-    }
-
     public double cost() {
         return 900;
     }
 
-   /* @Override
-    public double cost() {
-        return gerichtIngredientfactory.createSardine().cost() + 600;
-    }*/
+    public String getDescription() {
+        return "Avokado Puree";
+    }
+
 }
