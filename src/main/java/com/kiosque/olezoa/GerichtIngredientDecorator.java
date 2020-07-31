@@ -6,4 +6,12 @@ package com.kiosque.olezoa;
 public abstract class GerichtIngredientDecorator extends Gericht {
 
     public abstract String getDescription();
+
+    public enum GerichtIngreditenName {
+        Mayonnaise,
+        Sardine,
+        Schinken,
+        Spag,
+        Wurst;
+    }
 }

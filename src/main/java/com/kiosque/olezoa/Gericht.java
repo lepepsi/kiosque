@@ -18,4 +18,11 @@ public abstract class Gericht {
 
     public abstract double cost();
 
+    public enum gerichtName {
+        Omelette,
+        Avokadopuree,
+        Reis;
+    }
+
+
 }

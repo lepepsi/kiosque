@@ -13,10 +13,12 @@ public class GerichtIngredientfactory implements Iingredientfactory {
     }
 
     public Mayonnaise createMayonnaise(Gericht gericht) {
+
         return new Mayonnaise(gericht);
     }
 
     public Sardine createSardine() {
+
         return new Sardine(gericht);
     }
 
@@ -25,10 +27,12 @@ public class GerichtIngredientfactory implements Iingredientfactory {
     }
 
     public Schinken createSchinken() {
+
         return new Schinken(gericht);
     }
 
     public Schinken createSchinken(Gericht gericht) {
+
         return new Schinken(gericht);
     }
 
@@ -37,23 +41,24 @@ public class GerichtIngredientfactory implements Iingredientfactory {
     }
 
     public Wurst createWurst(Gericht gericht) {
+
         return new Wurst(gericht);
     }
 
-    public Wurst createBohne() {
-        return new Wurst(gericht);
+    public Bohne createBohne() {
+        return new Bohne(gericht);
     }
 
-    public Wurst createBohne(Gericht gericht) {
-        return new Wurst(gericht);
+    public Bohne createBohne(Gericht gericht) {
+        return new Bohne(gericht);
     }
 
-    public Wurst createSpag() {
-        return new Wurst(gericht);
+    public Spag createSpag() {
+        return new Spag(gericht);
     }
 
-    public Wurst createSpag(Gericht gericht) {
-        return new Wurst(gericht);
+    public Spag createSpag(Gericht gericht) {
+        return new Spag(gericht);
     }
 
 

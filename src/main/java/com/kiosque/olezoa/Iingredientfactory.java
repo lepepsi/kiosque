@@ -22,12 +22,12 @@ public interface Iingredientfactory {
 
     public Wurst createWurst(Gericht gericht);
 
-    public Wurst createBohne();
+    public Bohne createBohne();
 
-    public Wurst createBohne(Gericht gericht);
+    public Bohne createBohne(Gericht gericht);
 
-    public Wurst createSpag();
+    public Spag createSpag();
 
-    public Wurst createSpag(Gericht gericht);
+    public Spag createSpag(Gericht gericht);
 
 }
