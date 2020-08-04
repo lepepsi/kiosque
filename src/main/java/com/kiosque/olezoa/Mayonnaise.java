@@ -13,6 +13,6 @@ public class Mayonnaise extends GerichtIngredientDecorator {
     }
 
     public double cost() {
-        return gericht.cost() + 50;
+        return gericht.cost() + 100;
     }
 }
